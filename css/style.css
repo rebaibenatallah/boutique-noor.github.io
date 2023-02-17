@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+h4{
+    font-size: 20px;
+    color: #222;
+}
+h6{
+    font-weight: 600;
+    font-size: 5px;
+}
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+.section-m1{
+    margin: 40px 0;
+}
+body{
+    width: 100%;
+}
+
+/* Header Start */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 80px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: #8ed9d7;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #8ed9d7;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+/* Home Page */
+
+#hero{
+    height: 100vh;
+    width: 100%;
+    padding: 18px 80px;
+    background: white;
+    background-position: top 25% right 0;
+    padding: 25px 80px;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    grid-template-rows: 2fr 4fr;
+    align-items: center;
+    justify-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: #a1a497;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #dbd0bd;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #b7b7a4;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #ffe8d6;
+    transition: .4s;
+}
+.btn{
+    background-color: #ffe8d6;
+    color: #b7b7a4;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.cercle01{
+    margin-top: 25%;
+    margin-left: 50%;
+    background-image: url("../img/logo.png");
+    background-size: cover;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    /* background: white; */
+}
+.cercle02{
+    margin-top: -25%;
+    margin-left: 10%;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #dbd0bd;
+}
+.cercle03{
+    margin-left: 100%;
+    margin-top: 0%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: solid 15px white;
+    background-image: url("../img/02.jpg");
+    background-size: cover;
+    z-index: 999;
+}
+.cercle04{
+    margin-top: -30%;
+    margin-left: -40%;
+    background-image: url("../img/01.jpg");
+    background-size: cover;
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    /* background: #ffe8d6; */
+}
