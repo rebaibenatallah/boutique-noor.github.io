@@ -333,7 +333,7 @@ nav ul li a:hover{
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url("../img/02.jpg");
+    background-image: url("../img/16.jpg");
     /* min-width:580px; */
     width: 48%;
     height:40vh;
@@ -342,20 +342,24 @@ nav ul li a:hover{
     padding: 30px;
 }
 
+#sm-banner .banner-box2{
+    background-image: url("../img/s1.webp");
+}
+
 #sm-banner h4{
-    color: #fff;
+    color: rgb(87, 87, 87);
     font-size: 27px;
     font-weight: 300;
 }
 
 #sm-banner h2{
-    color: #fff;
+    color: rgb(87, 87, 87);
     font-size: 28px;
     font-weight: 800;
 }
 
 #sm-banner span{
-    color: #fff;
+    color: rgb(87, 87, 87);
     font-size: 14px;
     font-weight: 500;
     padding-bottom: 15px;
@@ -365,10 +369,10 @@ button.white{
     font-size: 13px;
     font-weight: 600;
     padding: 11px 18px;
-    color: #fff;
+    color: rgb(87, 87, 87);
     background-color: transparent;
     cursor: pointer;
-    border: 1px solid #fff;
+    border: 1px solid rgb(87, 87, 87);
     outline: none;
     transition: 0.2s;
 }
@@ -376,4 +380,38 @@ button.white{
 #sm-banner .banner-box:hover button{
     background: #088178;
     border: 1px solid #088178;
+}
+
+#banner3 {
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    padding: 0 5%;
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url("../img/ss.webp");
+    width:30%;
+    height:30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#banner3 h2{
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3{
+    color: #ec544e;
+    font-weight: 800;
+    font-size: 15px;
 }
