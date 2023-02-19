@@ -188,7 +188,9 @@ nav ul li a:hover{
     padding: 2% 8% ;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 2%;
     flex-wrap: wrap;
 }
 
@@ -246,7 +248,9 @@ nav ul li a:hover{
 
 #product1 .pro-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    /* justify-content: space-between; */
+    gap: 2%;
     padding-top: 20px;
     flex-wrap: wrap;
 }
@@ -313,4 +317,63 @@ nav ul li a:hover{
     position: absolute;
     bottom: 20px;
     right: 10px;
+}
+
+#sm-banner{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url("../img/02.jpg");
+    /* min-width:580px; */
+    width: 48%;
+    height:40vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner h4{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 300;
+}
+
+#sm-banner h2{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+}
+
+#sm-banner .banner-box:hover button{
+    background: #088178;
+    border: 1px solid #088178;
 }
